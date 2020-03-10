@@ -17,8 +17,8 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 # SNS settings
 RSS: false
 # weibo_username:     Richyeoh
-zhihu_username:     richyeoh
 github_username:    Richyeoh
+zhihu_username:     richyeoh
 # facebook_username:  Richyeoh
 # jianshu_username:   Richyeoh
 # twitter_username:   Richyeoh
@@ -80,10 +80,10 @@ friends: [
         title: "Richyeoh",
         href: "https://richyeoh.com"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "Google",
+        href: "https://google.com"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Android Developer",
+        href: "https://dev.android.com/"
     }
 ]
