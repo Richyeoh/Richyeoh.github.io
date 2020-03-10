@@ -1,2 +1,2 @@
-# richyeoh.github.io
+# Richyeoh.github.io
 Richyeoh's blogs
