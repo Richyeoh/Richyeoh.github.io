@@ -4,11 +4,6 @@
     border: 1px solid black;
 }
 
-a {
-    text-underline-position: unset;
-    text-decoration: none;
-}
-
 a:hover{
     color: aqua;
 } */
@@ -40,6 +35,11 @@ p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
+}
+
+a {
+    text-underline-position: unset;
+    text-decoration: none;
 }
 
 img {
