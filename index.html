@@ -1,42 +1,35 @@
----
-layout: page
-description: "Thinking will not overcome fear but action will."
----
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+        <title>我是第一个HTML</title>
+    </head>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+    <body>
+        <script src="scripts/main.js" defer></script>
+        <h1>Mozilla 酷毙了！</h1>
+        
+        <img src="images/firefox.webp" width="200" height="200" alt="Firefox">
+
+        <p>
+            <video width="200" height="200" autoplay loop muted>
+                <source src="media/movie.mp4" type="video/mp4">
+            </video>
+        </p>
+        
+        <p>Mozilla 是一个全球社区，这里聚集着五湖四海的</p>
+        
+        <ul>
+            <li>技术人员</li>
+            <li>思考者</li>
+            <li>建造者</li>
+        </ul>
+
+        <button id="btn_login" onclick="getUsername()">登录</button>
+
+        <p>我们致力于让Internet 保持活力，保持畅通，人人皆可贡献，人人皆可创造。我们坚信：开放平台的协作对于人的发展至关重要，也决定着我们的未来。</p>
+        <p>为了达成我们共同的理想，我们遵循一些列的价值观和理念，请参阅<a href="https://www.mozilla.com">Mozilla宣言</a>。</p>
+    </body>
+</html>
